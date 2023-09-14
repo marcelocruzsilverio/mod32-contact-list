@@ -36,6 +36,9 @@ function Contact({ id, name, number, email }: Contacts) {
   }
 
   function handleCancel() {
+    setEditedName(name)
+    setEditedNumber(number)
+    setEditedEmail(email)
     navigate('/')
   }
 
