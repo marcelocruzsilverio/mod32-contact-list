@@ -73,7 +73,7 @@ function Contact({ id, name, number, email }: Contacts) {
       id,
       name: editedName,
       number: editedNumber,
-      email
+      email: editedEmail
     }
 
     dispatch(edit(contactToAdd))
