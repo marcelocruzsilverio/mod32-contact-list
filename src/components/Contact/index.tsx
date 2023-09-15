@@ -140,7 +140,7 @@ function Contact({ id, name, number, email }: Contacts) {
               value={editedEmail}
               onChange={(e) => setEditedEmail(e.target.value)}
             />
-            <AddButton>Save Contact</AddButton>
+            <AddButton>Salvar Contato</AddButton>
             <CancelButton onClick={handleCancel}>Cancelar</CancelButton>
           </form>
         )}

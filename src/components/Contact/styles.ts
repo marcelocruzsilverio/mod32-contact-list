@@ -99,5 +99,5 @@ export const ContactInfo = styled.div`
 `
 
 export const CancelButton = styled(RemoveContactButton)`
-  margin-left: 24px;
+  margin-left: 8px;
 `
