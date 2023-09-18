@@ -48,7 +48,7 @@ function FormContact() {
         value={email}
         onChange={(e) => setEmail(e.target.value)}
       />
-      <AddButton>Save Contact</AddButton>
+      <AddButton>Salvar Contato</AddButton>
     </form>
   )
 }
